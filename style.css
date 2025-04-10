@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #218838;
+}
+button:nth-of-type(2) {
+    background-color: #007bff; /* Tombol Refresh */
+}
+button:nth-of-type(2):hover {
+    background-color: #0056b3;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.result {
+    margin-top: 20px;
+}
+.result p {
+    font-size: 18px;
+    margin: 10px 0;
+}
